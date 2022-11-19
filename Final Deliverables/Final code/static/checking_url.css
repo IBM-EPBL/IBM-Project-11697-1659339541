@@ -1,0 +1,49 @@
+html, body {
+    height:100%;
+
+  }
+  .well {
+    background-color: #0b9dd7
+  }
+  .h1{
+    padding-top: 50px;
+  }
+  #content {
+    padding: 20% 40% 5%;  
+  }
+  
+  .search-form {
+    border-radius: 100px 0 0 100px;
+    padding-top: 20px;
+  }
+  
+  .input-group {
+    width:100%;
+  }
+  
+
+  
+  .input-group-btn {
+    max-width:150px;
+  }
+  
+  #search {
+    border: 50px;
+  }
+  
+  .search-btn {
+    cursor:pointer;
+    border-radius: 0 50px 50px 0; 
+    background-color:#fff;
+    color:#669;    
+    
+  }
+  form.form-inline search-btn:hover
+  {
+    background-color: rgb(46, 182, 16);
+  }
+
+  .text-center{
+    color: rgb(9, 3, 15);
+    size:50px;
+  }
