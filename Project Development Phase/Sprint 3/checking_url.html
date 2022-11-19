@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <h1 style="color: rgb(20, 21, 21); text-align: center; padding-top: 100px; " >WEB PHISHING DETECTOR</h1>
+  </head>
+ 
+
+<body background="static/background.png">
+  
+    <div class="container">
+        <div id="content">
+            <link rel="stylesheet" href="static/checking_url.css" />
+          <form class='form-inline'>
+                <div>
+                  <input class="input2" type="text" name="SSLfinal_State" required="required" placeholder="SSLfinal_State"/>
+                  <span class="focus-input2" ></span>
+                </div>
+                <div>
+                  <input class="input2" ttype="text" name="URL_of_Anchor" required="required" placeholder="URL_of_Anchor"/>
+                  <span class="focus-input2"></span>
+                </div>
+                <div class="wrap-input2 validate-input">
+                  <input class="input2" type="text" name="Links_in_tags" required="required" placeholder="Links_in_tags" />
+                  <span class="focus-input2" ></span>
+                </div>
+                <div class="wrap-input2 validate-input">
+                  <input class="input2" type="text" name="Web_traffic" required="required" placeholder="Web_Traffic"/>
+                  <span class="focus-input2" ></span>
+                </div>
+                <div class="wrap-input2 validate-input">
+                  <input class="input2" type="text" name="Having_sub_domain" required="required" placeholder="Having_sub_domain"/>
+                  <span class="focus-input2" ></span>
+                </div>
+                <p class="predict">{{ pred }}</p>
+              </form>
+              
+              <span class="input-group-btn" style="width:px">
+                <button type="submit">Predict</button> 
+                </button>
+              </span>
+            </div>
+          </form>
+          <link rel="stylesheet" href="static/checking_url.css" />
+          
+      </div>
+    
+  </body>
+  </html>
